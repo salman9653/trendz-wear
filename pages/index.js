@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-slate-900 text-white'>
       <Head>
         <title>TrendZ Wear</title>
         <meta name="description" content="TrendZ Wear - Wear the Trend" />
