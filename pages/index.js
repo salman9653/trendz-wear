@@ -1,8 +1,5 @@
 import Head from 'next/head';
 
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
 export default function Home() {
   return (
     <div>
@@ -11,7 +8,6 @@ export default function Home() {
         <meta name="description" content="TrendZ Wear - Wear the Trend" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
       <div>
         <img src="home.png" alt="" className='w-screen overflow-hidden' />
       </div>
@@ -60,8 +56,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   )
 }
